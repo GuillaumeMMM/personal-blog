@@ -1,1 +1,18 @@
-<div class="footer">This is the footer</div>
+<div class="footer">
+    <div class="footer-left">
+        <span>📭 <a class="link" href="mailto:guillaume.meigniez@gmail.com">GuillaumeMMMailbox</a></span>
+    </div>
+    <div class="footer-right">
+        <% if((time(Date.now(), 'ss') % 5) === 0) { %>
+            <span>💅 run -> sleep -> drink redbull</span>
+        <% } else if ((time(Date.now(), 'X') % 5) === 1) { %>
+            <span>🍸 pétillant fines bulles</span>
+        <% } else if ((time(Date.now(), 'X') % 5) === 2) { %>
+            <span>🦕 guillau·meme·igniez·me</span>
+        <% } else if ((time(Date.now(), 'X') % 5) === 3) { %>
+            <span>🐑 <a class="link" href="https://www.instagram.com/datadesignmeasheep/">data-dessine moi un mouton</a></span>
+        <% } else { %>
+            <span>🏣 日本語が話せません</span>
+        <% } %>
+    </div>
+</div>
