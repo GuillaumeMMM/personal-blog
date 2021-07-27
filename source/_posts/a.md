@@ -6,3 +6,5 @@ categories:
 ---
 
 This is A's content
+
+<img src="/images/taiwan_01.jpg">

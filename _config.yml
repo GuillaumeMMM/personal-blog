@@ -114,3 +114,6 @@ admin:
 
 lazyload:
   enable: true
+  onlypost: false # optional
+  loadingImg: '/images/loading.jpg'
+  preloadRatio: 0

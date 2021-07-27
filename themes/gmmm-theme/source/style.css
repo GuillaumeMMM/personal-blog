@@ -53,6 +53,10 @@ b {
     font-weight: 600;
 }
 
+img {
+    width: 100%;
+}
+
 .link {
     background-color: rgb(255, 250, 224);
 }
