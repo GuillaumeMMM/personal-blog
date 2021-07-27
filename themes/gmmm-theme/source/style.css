@@ -30,6 +30,15 @@ main,
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
+}
+
+.footer .footer-left {
+    margin-right: 10px;
+}
+
+.footer .footer-left, .footer .footer-right {
+    white-space: nowrap;
 }
 
 main {
@@ -93,5 +102,11 @@ p {
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer > .footer-right {
+        display: none;
     }
 }

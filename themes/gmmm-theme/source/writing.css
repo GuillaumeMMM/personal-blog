@@ -16,6 +16,20 @@ ul.writing-posts-list > li > a {
     flex-wrap: nowrap;
     padding: 5px 0;
     margin-bottom: 5px;
+    width: 100%;
+}
+
+ul.writing-posts-list .list-item-left {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+ul.writing-posts-list .list-item-right {
+    margin-left: 10px;
+}
+
+ul.writing-posts-list .list-item-left, ul.writing-posts-list .list-item-right {
+    white-space: nowrap;
 }
 
 ul.writing-posts-list > li > a:hover {
