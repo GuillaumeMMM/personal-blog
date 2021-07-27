@@ -1,0 +1,23 @@
+.writing-header {
+    border-bottom: solid 1px #e0e0e0;
+    padding-bottom: 10px;
+}
+
+ul.writing-posts-list {
+    margin: 10px 0;
+    width: 100%;
+}
+
+ul.writing-posts-list > li > a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+ul.writing-posts-list > li > a:hover {
+    background-color: rgb(255, 250, 224);
+}

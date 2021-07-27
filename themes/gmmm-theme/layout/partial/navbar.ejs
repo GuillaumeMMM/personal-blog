@@ -5,16 +5,16 @@
 
     <ul class="sidebar">
         <li>
-            <a href="index.html" class="<% if(is_current('index.html')) { %>active<% } %>">About</a>
+            <a href="/index.html" class="<% if(is_current('index.html')) { %>active<% } %>">About</a>
         </li>
         <li>
-            <a href="writing.html" class="<% if(is_current('writing.html')) { %>active<% } %>">Writing</a>
+            <a href="/writing/index.html" class="<% if(is_current('writing/index.html') || (is_post() && url.includes('writing'))) { %>active<% } %>">Writing</a>
         </li>
         <li>
-            <a href="sewing.html" class="<% if(is_current('sewing.html')) { %>active<% } %>">Sewing</a>
+            <a href="/sewing/index.html" class="<% if(is_current('sewing/index.html') || (is_post() && url.includes('sewing'))) { %>active<% } %>">Sewing</a>
         </li>
         <li>
-            <a href="photos.html" class="<% if(is_current('photos.html')) { %>active<% } %>">Photos</a>
+            <a href="/photos/index.html" class="<% if(is_current('photos/index.html') || (is_post() && url.includes('photos'))) { %>active<% } %>">Photos</a>
         </li>
     </ul>
 </nav>
