@@ -116,11 +116,11 @@ p {
 }
 
 .images-row.images-row-2 img {
-    width: calc(50% - 5px);
+    width: calc((100% - 5px) * 0.5);
 }
 
 .images-row.images-row-3 img {
-    width: calc((100% - 10px) * 0.333);
+    width: calc((100% - 10px) * 0.3332);
 }
 
 @media screen and (max-width: 1000px) {

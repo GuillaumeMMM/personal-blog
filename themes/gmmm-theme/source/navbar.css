@@ -6,6 +6,10 @@ nav.main-nav {
     align-items: center;
 }
 
+nav.main-nav h1 {
+    margin-bottom: 5px;
+}
+
 nav.main-nav > ul {
     display: flex;
     align-items: center;
