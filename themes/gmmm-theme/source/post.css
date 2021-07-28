@@ -1,0 +1,8 @@
+.post-header > .post-date {
+    margin-top: 5px;
+    opacity: 0.6;
+}
+
+.post-content {
+    margin: 1rem 0;
+}
