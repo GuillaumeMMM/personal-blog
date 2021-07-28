@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://60fbedf3600c66c295e36ff7--eloquent-hodgkin-6e0dca.netlify.app
-permalink: :category/:year/:month/:day/:title/
+permalink: :category/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
