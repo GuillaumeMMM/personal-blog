@@ -98,6 +98,29 @@ p {
 
 .home-container .main-image > img {
     width: 100%;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.photo-album > img, .photo-album > .images-row {
+    margin-bottom: 5px;
+}
+
+.images-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.images-row > img:not(:last-child) {
+    margin-right: 5px;
+}
+
+.images-row.images-row-2 img {
+    width: calc(50% - 5px);
+}
+
+.images-row.images-row-3 img {
+    width: calc((100% - 10px) * 0.333);
 }
 
 @media screen and (max-width: 1000px) {

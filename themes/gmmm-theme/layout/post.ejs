@@ -5,6 +5,10 @@
     <span class="post-date"><%= time(page.date, 'MMM Do YYYY') %></span>
 </div>
 <div class="post-content">
+    <% if (page.albumUrl) { %>
+        <a class="link" href="<%= url_for(page.albumUrl) %>" target="_blank">View the full album on Flickr</a>
+    <% } %>
+
     <%- page.content %>
 
     <% if (page.fullTextUrl) { %>
