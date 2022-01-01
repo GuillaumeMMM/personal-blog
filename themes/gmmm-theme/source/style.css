@@ -132,6 +132,21 @@ p {
     margin: 10px 0;
 }
 
+.highlight {
+    background-color: #F4F4F4;
+    padding: 0 1rem;
+    border-radius: 3px;
+}
+
+.highlight .gutter {
+    display: none;
+}
+
+.highlight .line {
+    word-break: break-all;
+    white-space: break-spaces;
+}
+
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
