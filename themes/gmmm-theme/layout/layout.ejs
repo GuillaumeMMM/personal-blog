@@ -29,7 +29,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <%- css('./reset.css') %>
-        <%- css('./style.css') %>
+    <%- css('./style.css') %>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             <%- partial('partial/navbar') %>
                 <%- body %>
         </main>
-        <%- partial('partial/footer', {randomValue: Date.now() % 6}) %>
+        <%- partial('partial/footer') %>
 </body>
 
 </html>
