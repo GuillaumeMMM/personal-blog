@@ -20,14 +20,14 @@ In the context of an international investigative journalism project, every eleme
 
 As far as the map projection is concerned, I worked with d3-geo that offers many projection options. We eventually chose the Natural Earth Projection for how it eases the interactions with the map, and does have a convenient scale for the areas where the main Pegasus Project actions are happening.
 
-Deciding upon which border to display is sensitive and the rules are unclear. We went for the most used borders in French mainstream media maps such as Le Monde ones. After the release, some people got angry that part of the controvertial West Sahara is displayed inside Morocco. For this particular contention, Google Maps “solves” it by displaying different borders based on where you connect from.
+Deciding upon which border to display is sensitive and the rules are unclear. We went for the most used borders in French mainstream media maps such as Le Monde ones. For the contention over West Sahara for example, Google Maps “solves” it by displaying different borders based on where you connect from.
 
 <img src="https://live.staticflickr.com/65535/52341204944_92e20ac651_z.jpg" alt="Screenshot of the app where we see a map of the world. All countries that have a (sometimes suspected) role in the Pegasus Project are highlighted.">
 &nbsp;
 
 ## The accessibility
 
-I’ve had dedicated time to work on improving the accessibility. Accessibility in data visualisation can be tricky because developers are not used to doing it systematically. Most code examples for web dataviz libraries omit the accessible part. 
+I’ve had dedicated time to work on improving the accessibility. Accessibility in data visualisation can be tricky because developers are not used to doing it systematically. Many code examples for web dataviz libraries omit the accessible part. 
 
 On the internet, 1-2% of people navigate without having JS enabled (maybe even more when it comes to reading articles as users disable javascript to bypass paywalls). As the data of the app is only be accessible through the interactive map, giving a specific access to the information to these users is primordial. I created a separate website that doesn’t require javascript, and that displays the scrollytelling text, images of the map, and the list of links to all countries texts.
 
