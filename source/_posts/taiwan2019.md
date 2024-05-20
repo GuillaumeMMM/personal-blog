@@ -6,7 +6,7 @@ date: 2021-07-28 00:00:00
 albumUrl: https://www.flickr.com/photos/193563801@N03/albums/72157719602045184
 ---
 
-From january to december 2019 I was in New Taipei City, Taiwan. I lived there with 4 roommates in a Banqiao appartment. These are the highlights of this journey. Many rainy days, sweat drops, cars in front of temples, mountain climbing hikes and cute dogs in strollers.
+From january to december 2019 I was in New Taipei City, Taiwan. I lived there with 4 roommates in a Banqiao appartment. These are random highlights of this journey. Many rainy days, sweat drops, mountain climbing hikes and cute dogs in strollers.
 
 <div class="photo-album">
     <div class="images-row">
