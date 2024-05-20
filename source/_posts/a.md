@@ -1,7 +1,8 @@
 ---
-title: a
+title: ALLLOOOO
 date: 2017-09-13 00:00:00
-tags: [tag1]
+categories:
+  - writing
 ---
 
 This is A's content
