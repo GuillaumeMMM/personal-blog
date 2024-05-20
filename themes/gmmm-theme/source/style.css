@@ -132,6 +132,14 @@ p {
     margin: 10px 0;
 }
 
+.invisible {
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
