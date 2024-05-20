@@ -22,15 +22,19 @@ main,
     border-left: 1px solid #e0e0e0;
     width: 100%;
     padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .footer {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main {
     flex: 1;
-    padding: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
 }
 
 h1 {
