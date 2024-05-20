@@ -103,3 +103,8 @@ theme: gmmm-theme
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+admin:
+  username: guillaumemmm
+  password_hash: $2a$10$hM3/rMzNKQwP0wuFyezVweoykZ6b4yy6gPnkdizzrskSx2DzLHw26
+  secret: JXhJ6gZcRQ5DwdLH
