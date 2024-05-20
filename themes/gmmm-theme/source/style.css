@@ -124,6 +124,14 @@ p {
     width: calc((100% - 10px) * 0.3332);
 }
 
+.list {
+    list-style: inside;
+}
+
+.list > li {
+    margin: 10px 0;
+}
+
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
