@@ -1,7 +1,7 @@
 <%- css('./sewing.css') %>
 
 <div class="sewing-header">
-    <h3>Recent sewing projects</h3>
+    <h2>Recent sewing projects</h2>
 </div>
 <ul class="sewing-posts-list">
     <% site.categories.findOne({name: 'sewing'}).posts.sort('date', -1).each(function(post, i){%>
