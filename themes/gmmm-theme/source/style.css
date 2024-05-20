@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fbfbfb;
+    font-size: 16px;
+    color: rgb(30, 31, 59);
+    font-family: "Karla", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "STIX Two Math", serif;
+}
+
+main,
+.header,
+.footer {
+    max-width: 50em;
+    margin: auto;
+    border-left: 1px solid #e0e0e0;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.footer {
+    padding-bottom: 2rem;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+b {
+    font-weight: 600;
+}
+
+.link {
+    background-color: rgb(255, 250, 224);
+}
+
+.link:hover {
+    background-color: rgb(255, 236, 224);
+}
+
+p {
+    margin: 10px 0;
+}
+
+.home-container {
+    flex: 1;
+}
+
+.home-container > ul.sumup-list {
+    list-style: inside;
+    margin-bottom: 2rem;
+}
+
+.home-container > ul.sumup-list > li {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    main, .header, .footer {
+        border-left: none;
+    }
+}

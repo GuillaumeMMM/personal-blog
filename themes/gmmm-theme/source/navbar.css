@@ -1,0 +1,30 @@
+nav.main-nav {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav.main-nav > ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav.main-nav > ul > li > a {
+    margin-right: 10px;
+}
+
+nav.main-nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+nav.main-nav > ul > li > a.active {
+    text-decoration: underline;
+    background-color: rgb(255, 250, 224);
+}
+
+nav.main-nav > ul > li > a.active:hover {
+    background-color: rgb(255, 236, 224);
+}

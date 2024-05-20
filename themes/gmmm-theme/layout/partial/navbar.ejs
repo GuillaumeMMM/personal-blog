@@ -1,0 +1,20 @@
+<%- css('./navbar.css') %>
+
+<nav class="main-nav">
+    <h2>Guillaume Meigniez</h2>
+
+    <ul class="sidebar">
+        <li>
+            <a href="index.html" class="<% if(is_current('index.html')) { %>active<% } %>">About</a>
+        </li>
+        <li>
+            <a href="writing.html" class="<% if(is_current('writing.html')) { %>active<% } %>">Writing</a>
+        </li>
+        <li>
+            <a href="sewing.html" class="<% if(is_current('sewing.html')) { %>active<% } %>">Sewing</a>
+        </li>
+        <li>
+            <a href="photos.html" class="<% if(is_current('photos.html')) { %>active<% } %>">Photos</a>
+        </li>
+    </ul>
+</nav>
