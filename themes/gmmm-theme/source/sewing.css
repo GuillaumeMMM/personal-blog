@@ -18,6 +18,19 @@ ul.sewing-posts-list > li > a {
     margin-bottom: 5px;
 }
 
+ul.writing-posts-list .list-item-left {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+ul.writing-posts-list .list-item-right {
+    margin-left: 10px;
+}
+
+ul.writing-posts-list .list-item-left, ul.writing-posts-list .list-item-right {
+    white-space: nowrap;
+}
+
 ul.sewing-posts-list > li > a:hover {
     background-color: rgb(255, 250, 224);
 }
