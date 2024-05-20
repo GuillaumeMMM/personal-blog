@@ -68,6 +68,7 @@ img {
 
 .link {
     background-color: rgb(255, 250, 224);
+    text-decoration: underline;
 }
 
 .link:hover {
