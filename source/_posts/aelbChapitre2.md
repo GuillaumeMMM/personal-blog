@@ -7,7 +7,7 @@ date: 2021-07-29 00:00:00
 
 In 2020 I started sewing again. I made my first jackets based on a pattern I drew from a second hand jacket I found at a Guerrida shop.
 
-I've been willing for 2 years to make a sewing project with some kind of data visualization involved. Since I saw the Arte documentary "Fashion Geek", I follow and admire the work of <a href="https://www.claradaguin.com" class="link" rel="noreferrer">Clara Daguin</a> and <a href="http://yinggao.ca" rel="noreferrer" class="link">Ying Gao</a>. They both include elecronic devices in clothes to convey impressions, and to explore the interfaces between body and technology.
+I've been willing for 2 years to make a sewing project with some kind of data visualization involved. Since I saw the Arte documentary "Fashion Geek", I follow and admire the work of <a href="https://www.claradaguin.com" target="_self" class="link" >Clara Daguin</a> and <a href="http://yinggao.ca" target="_self" class="link">Ying Gao</a>. They both include elecronic devices in clothes to convey impressions, and to explore the interfaces between body and technology.
 
 I've been making 2 jackets, 2 shorts and I'll try to make 2 hats and 2 bags. I want to use geospatial sensors attached to the clothes, and then use the data to produce sounds made of samples. The sound would be linked to the movement. For this I need to do a few things :
 

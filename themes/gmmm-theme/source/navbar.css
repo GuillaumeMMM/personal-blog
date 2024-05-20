@@ -26,9 +26,13 @@ nav.main-nav > ul > li > a:hover {
 
 nav.main-nav > ul > li > a.active {
     text-decoration: underline;
-    background-color: rgb(255, 250, 224);
+    background-color: rgb(242, 224, 255);
 }
 
 nav.main-nav > ul > li > a.active:hover {
-    background-color: rgb(255, 236, 224);
+    background-color: rgb(222, 214, 253);
+}
+
+.nav-title {
+    text-align: center;
 }

@@ -1,9 +1,13 @@
+html {
+    font-size: 1.1rem;
+}
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #fbfbfb;
-    font-size: 16px;
+    background-color: #eff2fe;
+    line-height: 1.5;
     color: rgb(30, 31, 59);
     font-family: "Karla", sans-serif;
 }
@@ -11,7 +15,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "STIX Two Math", serif;
+    font-family: "Times New Roman";
 }
 
 main,
@@ -47,15 +51,15 @@ main {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 b {
@@ -67,12 +71,13 @@ img {
 }
 
 .link {
-    background-color: rgb(255, 250, 224);
+    background-color: rgb(242, 224, 255);
     text-decoration: underline;
+    vertical-align: middle;
 }
 
 .link:hover {
-    background-color: rgb(255, 236, 224);
+    background-color: rgb(222, 214, 253);
 }
 
 p {
@@ -95,7 +100,7 @@ p {
 }
 
 .home-container > ul > li:not(:last-child) {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .home-container > ul.sumup-list > li {
@@ -142,9 +147,11 @@ p {
 }
 
 .highlight {
-    background-color: #F4F4F4;
+    background-color: white;
+    border: 2px solid rgb(75, 75, 75);
     padding: 0 1rem;
-    border-radius: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .highlight .gutter {
@@ -156,9 +163,18 @@ p {
     white-space: break-spaces;
 }
 
+code {
+    background-color: rgb(228, 228, 228);
+    padding: 0 2px;
+}
+
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
+    }
+
+    .highlight {
+        margin: 0;
     }
 }
 

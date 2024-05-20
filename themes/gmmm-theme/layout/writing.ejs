@@ -1,7 +1,7 @@
 <%- css('./writing.css') %>
 
 <div class="writing-header">
-    <h2>Recent writings</h2>
+    <h2>Recently</h2>
 </div>
 <ul class="writing-posts-list">
     <% site.categories.findOne({name: 'writing'}).posts.sort('date', -1).each(function(post, i){%>

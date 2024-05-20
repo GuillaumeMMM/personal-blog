@@ -14,8 +14,7 @@ ul.writing-posts-list > li > a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 5px 0;
-    margin-bottom: 5px;
+    margin: 8px 0;
     width: 100%;
 }
 
@@ -33,5 +32,6 @@ ul.writing-posts-list .list-item-left, ul.writing-posts-list .list-item-right {
 }
 
 ul.writing-posts-list > li > a:hover {
-    background-color: rgb(255, 250, 224);
+    background-color: rgb(222, 214, 253);
+    
 }

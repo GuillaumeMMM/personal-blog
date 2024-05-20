@@ -7,12 +7,12 @@
 </div>
 <div class="post-content">
     <% if (page.albumUrl) { %>
-        <a class="link" href="<%= url_for(page.albumUrl) %>" target="_blank">View the full album on Flickr</a>
+        <a class="link" href="<%= url_for(page.albumUrl) %>" target="_blank">View the full album on Flickr <%- partial('partial/new-tab-icon') %></a>
     <% } %>
 
     <%- page.content %>
 
     <% if (page.fullTextUrl) { %>
-        <a class="link" href="<%= url_for(page.fullTextUrl) %>" target="_blank">Read more...</a>
+        <a class="link" href="<%= url_for(page.fullTextUrl) %>" target="_self">Read more...</a>
     <% } %>
 </div>

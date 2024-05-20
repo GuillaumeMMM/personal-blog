@@ -7,17 +7,17 @@ date: 2022-01-01 00:00:00
 
 SparkAR is Facebook's powerful and surprisingly accessible tool for creating 3D scenes that can be used as Facebook or Instagram filters. For about two years now, SparkAR's team added a SparkSL section to their documentation where they describe an underused tool of their software. 
 
-<a href="https://sparkar.facebook.com/ar-studio/learn/sparksl/sparksl-overview" rel="noreferrer" class="link">SparkSL</a> for Spark Shader Language is a superset of GLSL 1.0. It's a programming language for shader files (.sca) that can be imported into a SparkAR scene to be applied as textures to objects materials. 
+<a href="https://sparkar.facebook.com/ar-studio/learn/sparksl/sparksl-overview" target="_self" class="link">SparkSL</a> for Spark Shader Language is a superset of GLSL 1.0. It's a programming language for shader files (.sca) that can be imported into a SparkAR scene to be applied as textures to objects materials. 
 
-If you don't know what GLSL or shaders are, I recommend reading <a href="https://thebookofshaders.com" rel="noreferrer" class="link">The Book of Shaders</a>. With them, you'll be able - for any material in your scenes - to make visual effects that you couldn't do with textures & the basic shader tools of the grid. 
+If you don't know what GLSL or shaders are, I recommend reading <a href="https://thebookofshaders.com" target="_self" class="link">The Book of Shaders</a>. With them, you'll be able - for any material in your scenes - to make visual effects that you couldn't do with textures & the basic shader tools of the grid. 
 
-Especially since the size of an effect matters, and the files you’ll create we’ll just be lines of codes and super light compared with actual textures.
+Especially since the size of an effect matters, and the files you’ll create will just be lines of codes and super light compared with actual textures.
 
 We'll build a shader file (.sca) that we'll import into SparkAR and apply to a plane's material to make a very custom and very dynamic texture.
 
 ### **Creating a GLSL fragment shader**
 
-To create a fragment shader super easily, let's start by opening <a href="https://shdr.bkcore.com" rel="noreferrer" class="link">https://shdr.bkcore.com</a>, an editor that puts you directly into the code. 
+To create a fragment shader super easily, let's start by opening <a href="https://shdr.bkcore.com" target="_self" class="link">https://shdr.bkcore.com</a>, an editor that puts you directly into the code. 
 
 Let’s say we want to create a fragment shader that adds a “tv noise” effect to the material. The initial code should look something like : 
 
@@ -55,7 +55,7 @@ And we’ll add a noise function that does the effect, remove what we don’t ne
 
 You should get something like this :
 
-<img src="https://live.staticflickr.com/65535/51792820918_76e4614f79_z.jpg" alt="SparkSL tutorial">
+<img src="https://live.staticflickr.com/65535/51792820918_76e4614f79_z.jpg" alt="3D multicolor monkey head on a black background.">
 
 We can now save this code in a new file with the extension .frag, for example **tvNoise.frag**.
 
@@ -63,7 +63,7 @@ We can now save this code in a new file with the extension .frag, for example **
 
 Now we would like to use this file inside SparkAR and get the same kind of effect on the camera for example. However, SparkAR can not really read .frag files directly, we’ll have to make it a .sca file that requires some changes as far as syntax is concerned.
 
-First of all, to be able to retrieve the global variables such as the position of each fragment, and the time variable, we need to import the **std** util (<a href="https://sparkar.facebook.com/ar-studio/learn/sparksl/sparksl-api/utils" rel="noreferrer" class="link">see the docs</a>):
+First of all, to be able to retrieve the global variables such as the position of each fragment, and the time variable, we need to import the **std** util (<a href="https://sparkar.facebook.com/ar-studio/learn/sparksl/sparksl-api/utils" class="link" target="_self">see the docs</a>):
 
 {% codeblock lang:c %}
     #import <utils>
@@ -81,9 +81,9 @@ Then replace the corresponding variables in the main function :
     }
 {% endcodeblock %}
 
-I couldn’t find a clear documentation for all the SparkSL functions that can be used. I often rely on random codes examples in the rest of the docs that use them without explaining. For example, the only place I could find **getVertexTexCoord** was there : <a href="https://sparkar.facebook.com/ar-studio/learn/scripting/shader-code-asset/#defining-functions" rel="noreferrer" class="link">https://sparkar.facebook.com/ar-studio/learn/scripting/shader-code-asset/#defining-functions</a>.
+I couldn’t find a clear documentation for all the SparkSL functions that can be used. I often rely on random codes examples in the rest of the docs that use them without explaining. For example, the only place I could find **getVertexTexCoord** <a href="https://sparkar.facebook.com/ar-studio/learn/scripting/shader-code-asset/#defining-functions" target="_self" class="link">was there</a>.
 
-The repo <a href="https://github.com/aferriss/sparksl-shader-examples" rel="noreferrer" class="link">sparksl-shader-examples</a> was even more useful than the docs.
+The repo <a href="https://github.com/aferriss/sparksl-shader-examples" target="_self" class="link">sparksl-shader-examples</a> was even more useful than the docs.
 
 Then the **tvNoise.sca** should look like this :
 
@@ -129,7 +129,7 @@ We’ll then make a texture asset of the **camera** by clicking on **Texture Ext
 
 Finally select the texture, and create a patch out of it. In the patch editor, link the RGB output of the texture to the camera parameter of the material.
 
-<img src="https://live.staticflickr.com/65535/51791757467_0f37df46a5_z.jpg" alt="SparkSL tutorial">
+<img src="https://live.staticflickr.com/65535/51791757467_0f37df46a5_z.jpg" alt="Screenshot from the SparkSL app. The patch editor tab is open, and there are two blocks cameraTexture0 and material0 linked from the RGB node on the first one to the camera node on the other one.">
 
 And you should see now the camera having a tv noise effect. This effect could have been done more simply without creating a separate panel, but now you can tweak the shaders params and see all the effects you can do with this setup.
 

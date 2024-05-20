@@ -1,44 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Guillaume Meigniez">
-    <meta name="description"
-        content="Guillaume Meigniez's personal blog containing writing and blog posts about tech, sewing projects, data-visualization and photos albums.">
-
-    <meta property="og:image" content="https://live.staticflickr.com/65535/51340377587_9c068ffa0d_w.jpg">
-    <meta property="og:description"
-        content="Guillaume Meigniez's personal blog containing writing and blog posts about tech, sewing projects, data-visualization and photos albums.">
-    <meta property="og:title"
-        content="Guillaume Meigniez | Creative Engineer - Front-End & Data Visualization Developer">
-
-    <title>Guillaume Meigniez | Creative Engineer - Front-End & Data Visualization Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Droid Sans', 'Droid Serif']
-            }
-        });
-    </script>
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-    <%- css('./reset.css') %>
-    <%- css('./style.css') %>
-</head>
-
-<body>
+<html lang=<%- config.language %>
     <%- partial('partial/header') %>
+
+    <body>
         <main>
             <%- partial('partial/navbar') %>
-                <%- body %>
+            <%- body %>
         </main>
         <%- partial('partial/footer') %>
-</body>
+    </body>
 
 </html>
