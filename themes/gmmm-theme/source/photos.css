@@ -1,0 +1,36 @@
+.photos-header {
+    border-bottom: solid 1px #e0e0e0;
+    padding-bottom: 10px;
+}
+
+ul.photos-posts-list {
+    margin: 10px 0;
+    width: 100%;
+}
+
+ul.photos-posts-list > li > a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+ul.photos-posts-list .list-item-left {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+ul.photos-posts-list .list-item-right {
+    margin-left: 10px;
+}
+
+ul.photos-posts-list .list-item-left, ul.photos-posts-list .list-item-right {
+    white-space: nowrap;
+}
+
+ul.photos-posts-list > li > a:hover {
+    background-color: rgb(255, 250, 224);
+}
