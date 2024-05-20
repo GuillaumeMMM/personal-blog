@@ -2,17 +2,16 @@
     <div class="footer-left">
         <span>📭 <a class="link" href="mailto:guillaume.meigniez@gmail.com">GuillaumeMMMailbox</a></span>
     </div>
-    <div class="invisible"><%=(time(Date.now(), 'ss'))%></div>
     <div class="footer-right">
-        <% if((time(Date.now(), 'ss') % 6) === 0) { %>
+        <% if(randomValue === 0) { %>
             <span>💅 run -> sleep -> drink redbull</span>
-        <% } else if ((time(Date.now(), 'ss') % 6) === 1) { %>
+        <% } else if (randomValue === 1) { %>
             <span>🍸 pétillant fines bulles</span>
-        <% } else if ((time(Date.now(), 'ss') % 6) === 2) { %>
+        <% } else if (randomValue === 2) { %>
             <span>🦕 guillau·meme·igniez·me</span>
-        <% } else if ((time(Date.now(), 'ss') % 6) === 3) { %>
+        <% } else if (randomValue === 3) { %>
             <span>🐑 <a class="link" href="https://www.instagram.com/datadesignmeasheep/">data-dessine moi un mouton</a></span>
-        <% } else if ((time(Date.now(), 'ss') % 6) === 4) { %>
+        <% } else if (randomValue === 4) { %>
             <span>🧢 <a class="link" href="https://www.instagram.com/shyyboi111/">shy boy</a></span>
         <% } else { %>
             <span>🏣 日本語が話せません</span>

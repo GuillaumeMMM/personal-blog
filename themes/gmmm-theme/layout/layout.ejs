@@ -38,7 +38,7 @@
             <%- partial('partial/navbar') %>
                 <%- body %>
         </main>
-        <%- partial('partial/footer') %>
+        <%- partial('partial/footer', {randomValue: Date.now() % 6}) %>
 </body>
 
 </html>
