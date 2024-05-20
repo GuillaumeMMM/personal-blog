@@ -1,6 +1,7 @@
 <%- css('./post.css') %>
 
 <div class="post-header">
+    <a class="link" href="/<%= page.path.split('/')[0] %>">back</a>
     <h2><%- page.title %></h2>
     <span class="post-date"><%= time(page.date, 'MMM Do YYYY') %></span>
 </div>
