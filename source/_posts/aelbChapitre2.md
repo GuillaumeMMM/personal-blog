@@ -1,7 +1,7 @@
 ---
 title: A·EL-B Chapter 2
 categories:
-  - sewing
+  - writing
 date: 2021-07-29 00:00:00
 ---
 

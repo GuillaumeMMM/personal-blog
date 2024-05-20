@@ -1,7 +1,7 @@
 ---
 title: Taiwan 2019
 categories:
-  - photos
+  - writing
 date: 2021-07-28 00:00:00
 albumUrl: https://www.flickr.com/photos/193563801@N03/albums/72157719602045184
 ---

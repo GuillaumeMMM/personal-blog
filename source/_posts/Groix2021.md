@@ -1,7 +1,7 @@
 ---
 title: Groix 2021
 categories:
-  - photos
+  - writing
 date: 2022-01-01 00:00:00
 albumUrl: https://www.flickr.com/photos/193563801@N03/albums/72177720295644205
 ---

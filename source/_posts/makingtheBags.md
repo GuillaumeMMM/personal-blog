@@ -1,7 +1,7 @@
 ---
 title: Making bags for strawberry picking
 categories:
-  - sewing
+  - writing
 date: 2021-08-26 00:00:00
 ---
 
