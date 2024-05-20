@@ -54,7 +54,7 @@ b {
 }
 
 p {
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 .home-container {
@@ -67,7 +67,15 @@ p {
 }
 
 .home-container > ul.sumup-list > li {
-    margin: 5px 0;
+    margin: 1rem 0;
+}
+
+.home-container .main-image {
+    width: 100%;
+}
+
+.home-container .main-image > img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
