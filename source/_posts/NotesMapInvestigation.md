@@ -5,11 +5,11 @@ categories:
 date: 2022-09-07 00:00:00
 ---
 
-In the beginning of 2022, I have built for the <a class="link" target="_self" href="https://forbiddenstories.org">Forbidden Stories</a> platform their one year anniversary map of the <a class="link" target="_self" href="https://forbiddenstories.org/fr/case/le-pegasus-project/g">Project Pegasus</a> initial release. They wanted to make accessible the data related to the (sometimes potential) victims and (sometimes potential) clients of the Pegasus spyware.
+In the beginning of 2022, I have built for the <a class="link" target="_self" href="https://forbiddenstories.org">Forbidden Stories</a> platform their one year anniversary map of the <a class="link" target="_self" href="https://forbiddenstories.org/about-the-pegasus-project/">Project Pegasus</a> initial release. They wanted to make accessible the data related to the (sometimes potential) victims and (sometimes potential) clients of the Pegasus spyware.
 
 The revelations being international and based on geographic data we built a web interactive world map. The experience is split in two distinct parts. First is the explanatory part with a scrollytelling identifying the events that occured during and after the revelations. And then an exploratory part where the user is given full access to the world map so that they find detailed description of every country’s involvement.
 
-<a class="link" target="_self" href="https://forbiddenstories.org/pegasus-project-impacts-map/">The result is available here.</a>
+<!-- <a class="link" target="_self" href="https://forbiddenstories.org/pegasus-project-impacts-map/">The result is available here.</a> -->
 
 <img src="https://live.staticflickr.com/65535/52341331315_456c3daaab_z.jpg" alt="Screenshot of the app where we see a map of the world centered on the atlantic ocean. Every country is grey besides France, Hungary, Israel and El Salvador that are red.">
 &nbsp;
