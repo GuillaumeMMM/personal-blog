@@ -168,6 +168,10 @@ code {
     padding: 0 2px;
 }
 
+ol {
+    padding-left: 1rem;
+}
+
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
