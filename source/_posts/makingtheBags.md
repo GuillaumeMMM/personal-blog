@@ -9,7 +9,7 @@ The goal is to make bags for André·e L. that are solid and convenient. Unlike 
 
 <img src="https://live.staticflickr.com/65535/51403386027_87bee15a9e_z.jpg" alt="Bag full of strawberries">
 
-During summer, I went to Brittany and took a few pictures. I went to La Pointe Du Bill to shoot a sailing class, and to l'île d'Arz to get some hydrangeas pics. A collection of the pictures taken is available <a class="link" href="https://guillaumemeigniez.me/photos/brittanySummer2021" target="_self">here</a>. With those, I made large digital collages, and printed them on waterproof fabric. The print was made with <a target="_self" href="https://www.contrado.fr" class="link" rel="noreferrer">Contrado</a> which I tried ordering at for the first time. For the fabric I chose (Tissu imperméable respirant 155g/m²) the result is really worth the price.
+During summer, I went to Brittany and took a few pictures. I went to La Pointe Du Bill to shoot a sailing class, and to l'île d'Arz to get some hydrangeas pics. A collection of the pictures taken is available <a href="https://guillaumemeigniez.me/photos/brittanySummer2021" >here</a>. With those, I made large digital collages, and printed them on waterproof fabric. The print was made with <a href="https://www.contrado.fr" rel="noreferrer">Contrado</a> which I tried ordering at for the first time. For the fabric I chose (Tissu imperméable respirant 155g/m²) the result is really worth the price.
 
 <div class="photo-album">
     <div class="images-row images-row-2">

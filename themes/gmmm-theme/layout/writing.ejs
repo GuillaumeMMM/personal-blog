@@ -1,11 +1,11 @@
 <%- css('./writing.css') %>
 <div class="writing-posts-header">
-    <a class="link" href="../blog.xml" target="_blank">RSS feed <%- partial('partial/new-tab-icon') %></a>
+    <a href="../blog.xml" target="_blank">RSS feed <%- partial('partial/new-tab-icon') %></a>
 </div>
 <ul class="writing-posts-list">
     <% site.categories.findOne({name: 'writing'}).posts.sort('date', -1).each(function(post, i){%>
         <li class="writing-posts-list-item">
-            <a href="<%= url_for(post.path) %>">
+            <a href="<%= url_for(post.path) %>" class="writing-posts-list-item-link">
                 <div class="list-item-left"><%= post.title %></div>
                 <div class="list-item-right"><%= time(post.date, 'MMM Do YYYY') %></div>
             </a>

@@ -1,18 +1,18 @@
 <%- css('./post.css') %>
 
 <div class="post-header">
-    <a class="link" href="/<%= page.path.split('/')[0] %>">back</a>
+    <a href="/<%= page.path.split('/')[0] %>">back</a>
     <h2><%- page.title %></h2>
     <span class="post-date"><%= time(page.date, 'MMM Do YYYY') %></span>
 </div>
 <div class="post-content">
     <% if (page.albumUrl) { %>
-        <a class="link" href="<%= url_for(page.albumUrl) %>" target="_blank">View the full album on Flickr <%- partial('partial/new-tab-icon') %></a>
+        <a href="<%= url_for(page.albumUrl) %>" target="_blank">View the full album on Flickr <%- partial('partial/new-tab-icon') %></a>
     <% } %>
 
     <%- page.content %>
 
     <% if (page.fullTextUrl) { %>
-        <a class="link" href="<%= url_for(page.fullTextUrl) %>" target="_self">Read more...</a>
+        <a href="<%= url_for(page.fullTextUrl) %>" >Read more...</a>
     <% } %>
 </div>

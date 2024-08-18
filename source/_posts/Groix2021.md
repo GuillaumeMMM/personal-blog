@@ -29,4 +29,4 @@ albumUrl: https://www.flickr.com/photos/193563801@N03/albums/72177720295644205
     </div>
 </div>
 
-Finalement beaucoup des photos argentiques ont servi à la promotion visuelle sur Instagram <a class="link" href="https://www.instagram.com/andre.elawrance/">@andre.elawrance</a>.
+Finalement beaucoup des photos argentiques ont servi à la promotion visuelle sur Instagram <a href="https://www.instagram.com/andre.elawrance/">@andre.elawrance</a>.

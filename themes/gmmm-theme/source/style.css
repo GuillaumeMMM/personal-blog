@@ -23,7 +23,7 @@ main,
 .footer {
     max-width: 50em;
     margin: auto;
-    border-left: 1px solid #e0e0e0;
+    border-left: 2px solid #e0e0e0;
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -70,14 +70,13 @@ img {
     width: 100%;
 }
 
-.link {
+a {
     background-color: rgb(242, 224, 255);
     text-decoration: underline;
-    vertical-align: middle;
-}
 
-.link:hover {
-    background-color: rgb(222, 214, 253);
+    &:hover {
+        background-color: rgb(222, 214, 253);
+    }
 }
 
 p {

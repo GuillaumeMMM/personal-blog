@@ -31,8 +31,12 @@ ul.writing-posts-list .list-item-left, ul.writing-posts-list .list-item-right {
     white-space: nowrap;
 }
 
-ul.writing-posts-list > li > a:hover {
-    background-color: rgb(222, 214, 253);
+.writing-posts-list-item-link {
+    background-color: unset;
+
+    &:hover {
+        background-color: rgb(222, 214, 253);
+    }
 }
 
 .writing-posts-header {
