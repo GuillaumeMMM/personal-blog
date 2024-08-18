@@ -5,7 +5,7 @@ categories:
 date: 2024-08-15 00:00:00
 ---
 
-At work this week we noticed that the package `react-autosize-textarea` of our React frontend app had dependencies that were not kept up to date. A quick look at the <a class="link" target="_self" href="https://github.com/buildo/react-autosize-textarea">github repository</a> showed that the last release was in 2018 and that it has been archived in March of this year. Which led us to look into why we needed that library 🤔
+At work this week we noticed that the package `react-autosize-textarea` of our React frontend app had dependencies that were not kept up to date. A quick look at the <a class="link" target="_self" href="https://github.com/buildo/react-autosize-textarea">github repository</a> showed that the last release was in 2018 and that it has been archived in March of this year. Which led us to look into why we needed that library 🤔.
 
 The `react-autosize-textarea` library exports a React component named "TextArea" rendering a regular `<textarea>` HTML tag which height will resize based on its content so that a user will not have to scroll vertically within the input. It receives 3 props : the minimum height in rows, the maximum height in rows and a `onResize` callback.
 
@@ -57,7 +57,7 @@ I suspect that there are 3 different problems here :
    
    Also people have taken the gaussian meme of dependencies a little too seriously : as a junior developer, you start by installing all possible packages. Then you understand that making everything yourself offers more control i.e. customisation and optimisation. And eventually you realise that some harder things have already been solved and that you shouldn't reinvent the wheel every single time. 
    
-   The thing is there is a nuance to the last stage : identifying what's hard enough to do so that it is worth all the maintenance, security, accessibility, code size questions is subtle. For example, building a complex dropdown menu from scratch may not be worth it for accessibility reasons. Or building your own highly customisable range picker if you have 1 week sprint to make it work.
+   There is a nuance to the last stage : identifying what's hard enough, so that it is worth all the maintenance, security, accessibility and code size questions is subtle. For example, building a complex dropdown menu from scratch may not be worth it for accessibility reasons. Same goes for building your own highly customisable range picker if you have 1 week sprint to make it work.
 
 3. The systematic need for React wrapper library is a little extreme. We probably shouldn't use them as much as we do because we all know enough how a React component lifecycle works to build our own. And when I see that <a class="link" target="_self" href="https://www.npmjs.com/package/react-autosize-textarea">react-autosize-textarea</a> has 150 000 weekly downloads I'm scared.
    
