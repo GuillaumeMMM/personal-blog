@@ -1,7 +1,6 @@
 <%- css('./writing.css') %>
-
-<div class="writing-header">
-    <h2>Recently</h2>
+<div class="writing-posts-header">
+    <a class="link" href="../blog.xml" target="_blank">RSS feed <%- partial('partial/new-tab-icon') %></a>
 </div>
 <ul class="writing-posts-list">
     <% site.categories.findOne({name: 'writing'}).posts.sort('date', -1).each(function(post, i){%>

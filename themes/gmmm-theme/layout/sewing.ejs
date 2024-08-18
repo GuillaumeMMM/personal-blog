@@ -4,12 +4,4 @@
     <h2>Recent sewing projects</h2>
 </div>
 <ul class="sewing-posts-list">
-    <% site.categories.findOne({name: 'sewing'}).posts.sort('date', -1).each(function(post, i){%>
-        <li class="sewing-posts-list-item">
-            <a href="<%= url_for(post.path) %>">
-                <div class="list-item-left"><%= post.title %></div>
-                <div class="list-item-right"><%= time(post.date, 'MMM Do YYYY') %></div>
-            </a>
-        </li>
-    <% }) %>
  </ul>
