@@ -59,6 +59,6 @@ I suspect that there are 3 different problems here :
    
    There is a nuance to the last stage : identifying what's hard enough, so that it is worth all the maintenance, security, accessibility and code size questions is subtle. For example, building a complex dropdown menu from scratch may not be worth it for accessibility reasons. Same goes for building your own highly customisable range picker if you have 1 week sprint to make it work.
 
-3. The systematic need for React wrapper library is a little extreme. We probably shouldn't use them as much as we do because we all know enough how a React component lifecycle works to build our own. And when I see that [react-autosize-textarea](https://www.npmjs.com/package/react-autosize-textarea) has 150 000 weekly downloads I'm scared.
+3. The systematic need for React wrapper library is a little extreme. We probably shouldn't use them as much as we do because we all know enough how a React component lifecycle works to build our own. And when I see that [react-autosize-textarea](https://www.npmjs.com/package/react-autosize-textarea) has 150 000 weekly downloads I'm puzzled.
    
 We all try to be careful and to make the best decisions for the future of the codebase. The evaluation of existing packages and the discussion around the new dependencies should happen. And since we may be at a point in time where the well used React wrappers maintainers communities are progressively dying after 5 to 10 years of loyal services, let's be even more careful 👀.

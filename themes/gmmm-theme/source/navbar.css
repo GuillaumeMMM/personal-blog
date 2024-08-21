@@ -18,6 +18,8 @@ nav.main-nav > ul {
 
 nav.main-nav > ul > li > a {
     margin-right: 10px;
+    background-color: unset;
+    text-decoration: unset;
 }
 
 nav.main-nav > ul > li > a:hover {
