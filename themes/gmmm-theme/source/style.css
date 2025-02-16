@@ -146,11 +146,12 @@ p {
 }
 
 .highlight {
-    background-color: white;
-    border: 2px solid rgb(75, 75, 75);
+    background-color: rgb(245, 243, 255);
+    border: 2px solid rgb(154, 113, 255);
     padding: 0 1rem;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
 }
 
 .highlight .gutter {
@@ -171,9 +172,19 @@ ol {
     padding-left: 1rem;
 }
 
+blockquote {
+    background-color: rgb(227, 233, 255);
+    
+    margin: 1rem;
+    padding: 5px 5px 5px 1rem;
+    border-left: 4px solid rgb(154, 113, 255);
+}
+
 @media screen and (max-width: 1000px) {
     main, .header, .footer {
         border-left: none;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .highlight {
