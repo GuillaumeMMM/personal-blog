@@ -132,3 +132,9 @@ feed:
   icon: https://live.staticflickr.com/65535/51792726680_19d40c3693.jpg
   autodiscovery: true
   template:
+
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
